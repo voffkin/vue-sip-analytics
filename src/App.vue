@@ -84,8 +84,6 @@ export default {
       analytics: null
     }
   },
-  components: {
-  },
   mounted() {
     this.analytics = new this.$analytics({
       projectName: 'my_project',
@@ -99,6 +97,7 @@ export default {
   methods: {
     show() {
       this.hidden = !this.hidden
+      this.analytics.event('inner_link', 'slide1')
     }
   }
 }

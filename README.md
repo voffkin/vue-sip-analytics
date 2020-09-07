@@ -36,10 +36,10 @@ App.vue
     })
     this.analytics.init()
   },
+  methods: {
+    show() {
+      this.analytics.event('inner_link', 'slide1')
+    }
+  }
+
 ```
-
-### Todo
-
-- [ ] outer_link
-- [ ] inner_link
-- [ ] custom events

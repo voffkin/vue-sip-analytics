@@ -57,6 +57,9 @@ const Analytics = class {
       }
     })
   }
+  event(name, data) {
+    event(name, {anchor: `${name}-${data}`});
+  }
   setDebug(el) {
     if(this.debug) {
       el.style.border = '1px solid red'
