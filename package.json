@@ -1,0 +1,25 @@
+{
+  "name": "vue-sip-analytics",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/plugins/Analytics/",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "normalize.css": "^8.0.1",
+    "resize-observer-polyfill": "^1.5.1",
+    "vue": "^2.6.11",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
